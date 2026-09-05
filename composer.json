@@ -1,0 +1,14 @@
+{
+    "name": "ksfraser/ksf-fa-rep-audit",
+    "description": "KSF Audit and Data Integrity Reports for FrontAccounting",
+    "type": "project",
+    "license": "GPL-3.0-or-later",
+    "require": {
+        "php": ">=7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "ksfraser\\FrontAccounting\\RepAudit\\": "src/"
+        }
+    }
+}
